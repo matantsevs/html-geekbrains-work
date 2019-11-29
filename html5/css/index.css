@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Geo&display=swap");
+body {
+  width: 1000px;
+  height: 1791px;
+  margin: 0 auto; }
+
+.b-header {
+  position: relative;
+  height: 135px;
+  margin: 0 29px; }
+
+.topline {
+  height: 5px;
+  background-color: #81b300; }
+
+.b-header__brand {
+  padding-top: 29px; }
+
+.b-header__brand_name {
+  color: #333333;
+  font-family: 'Geo', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 36px; }
+
+.b-header__brand_info {
+  color: #999999;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  margin-top: 15px; }
+
+.b-social_header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.b-socialBlock {
+  width: 251px;
+  background-color: #81b300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px; }
+
+.b-socialBlock__a {
+  color: #1f1f1f; }
+
+.b-socialBlock__icon {
+  font-size: 36px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+
+.b-socialBlock__icon:hover {
+  color: #00acee; }
+
+.b-headerLink {
+  float: right;
+  margin-top: -25px; }
+
+.b-headerLink__li {
+  display: inline; }
+
+.b-headerLink__a {
+  color: #81b300;
+  font-family: 'Geo', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-decoration: none; }
+
+.b-menu {
+  height: 70px;
+  background-color: #81b300;
+  display: grid;
+  grid-template-columns: 2fr 1fr; }
+
+.b-menulink {
+  padding-top: 10px; }
+
+.b-menulink__li {
+  display: inline; }
+
+.b-menulink__a {
+  color: #ffffff;
+  font-family: 'Geo', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 10px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+
+.b-menulink__a:hover {
+  color: #000000;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+
+.b-menusearch__form {
+  width: 282px;
+  height: 30px;
+  border: 3px solid  #999999;
+  margin-top: 17px; }
+
+.b-menusearch__text {
+  background-color: #ffffff;
+  height: 27px;
+  width: 202px;
+  border: 0px;
+  position: relative; }
+
+.b-menusearch__button {
+  height: 30px;
+  width: 80px;
+  background-color: #ffffff;
+  color: #81b300;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 14.4px;
+  text-transform: uppercase;
+  float: right;
+  position: absolute; }
+
+.b-slider {
+  height: 480px;
+  background-color: #f2f2f2;
+  padding: 30px 45px; }
+
+.b-slider__img {
+  width: 880px;
+  height: 360px;
+  border: 9px solid #ffffff; }
+
+.b-slider__control {
+  padding: 30px 330px; }
+
+.b-slider__controlfa2 {
+  padding: 10px; }
+
+.b-services {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.b-services__img {
+  margin: 50px auto;
+  display: block;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s; }
+
+.b-services__p1 {
+  color: #81b300;
+  font-family: 'Geo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: center; }
+
+.b-services__p2 {
+  color: #888888;
+  font-family: 'Geo', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  padding: 0 17px; }
+
+.b-project {
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.b-project__block {
+  padding: 65px 20px; }
+
+.b-project__img {
+  border: 5px solid #e2e2e2; }
+
+.b-project__p1 {
+  color: #444444;
+  font-family: 'Geo', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px; }
+
+.b-project__p2 {
+  color: #878787;
+  font-family: 'Geo', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px; }
+
+.b-project__a {
+  color: #81b300;
+  font-family: 'Geo', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  text-decoration: none;
+  text-align: right;
+  display: block; }
+
+.b-footer {
+  height: 200px;
+  background-color: #3b3b3b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 20px; }
+
+.b-footer__head {
+  color: #666666;
+  font-family: 'Geo', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-transform: uppercase; }
+
+.b-footer__contactp {
+  color: #999999;
+  font-family: 'Geo', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20.8px; }
+
+.b-footer__quick_p {
+  border-bottom: 1px solid #484848; }
+
+.b-footer__link {
+  color: #999999;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-decoration: none; }
+
+.b-footer__blogP1 {
+  color: #999999;
+  font-family: 'Geo', sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 15.6px; }
+
+.b-footer__blogP2 {
+  color: #999999;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px; }
+
+.b-footer__bloglink {
+  color: #81b300;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  text-decoration: none;
+  text-align: right; }
+
+.b-footer__formtext {
+  width: 210px;
+  height: 31px;
+  background-color: #1f1f1f;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px;
+  margin-bottom: 20px; }
+
+.b-footer__formbutton {
+  background-color: #1f1f1f;
+  color: #81b300;
+  font-family: Georgia;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20.58px;
+  text-transform: uppercase;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px; }
+
+.copyright {
+  height: 60px;
+  background-color: #2e2e2e;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.copyright__copyright,
+.copyright__template {
+  color: #737373;
+  font-family: 'Geo', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.4px;
+  padding: 20px; }
+
+.copyright__template {
+  text-align: right; }
+
+/*# sourceMappingURL=index.css.map */

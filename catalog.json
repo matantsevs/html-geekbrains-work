@@ -4,55 +4,63 @@
       "title": "Notebook Asus Pavilian",
       "price": 25300,
       "img": "https://placehold.it/200x150",
-      "cartImg": "https://placehold.it/100x80"
+      "cartimg": "https://placehold.it/100x80"
+      
     },
     {
         "id": 2,
         "title": "Display Dell",
         "price": 8200,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 3,
         "title": "Keyboard Logitech",
         "price": 1220,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 4,
         "title": "Mouse Genius",
         "price": 430,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 5,
         "title": "Phones Samsung",
         "price": 13999,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 6,
         "title": "Router Xiaomi",
         "price": 4280,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 7,
         "title": "USB-camers Asus",
         "price": 2860,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       },
       {
         "id": 8,
         "title": "Gamepad Logitech",
         "price": 752,
         "img": "https://placehold.it/200x150",
-        "cartImg": "https://placehold.it/100x80"
+        "cartimg": "https://placehold.it/100x80"
+
       }
   ]
